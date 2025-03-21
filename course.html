@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .course-description, .course-content, .instructor-details {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .course-description p,
+        .course-content ul,
+        .instructor-details p {
+            color: #555;
+        }
+
+        .course-content ul {
+            padding-left: 20px;
+        }
+
+        .course-content ul li {
+            margin-bottom: 10px;
+        }
+
+        .instructor-details img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Advanced Web Development Course</h1>
+        <p>Learn to build modern websites and applications</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#instructor">Instructor</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="overview" class="main-content">
+        <div class="course-description">
+            <h2>Course Description</h2>
+            <p>This Advanced Web Development course is designed for individuals who want to build professional and modern websites and web applications. It covers advanced topics such as front-end frameworks, back-end development, and full-stack programming.</p>
+            <p>By the end of this course, students will have a complete understanding of building dynamic websites and web applications from scratch using popular tools and technologies.</p>
+        </div>
+
+        <div class="course-content">
+            <h2>Course Content</h2>
+            <ul>
+                <li>Introduction to HTML5 & CSS3</li>
+                <li>Responsive Design with Bootstrap</li>
+                <li>JavaScript Fundamentals</li>
+                <li>Introduction to Front-End Frameworks (React, Vue.js)</li>
+                <li>Back-End Development with Node.js</li>
+                <li>Building APIs with Express</li>
+                <li>Database Integration (MongoDB, MySQL)</li>
+                <li>Authentication & Security in Web Development</li>
+                <li>Deploying Web Applications</li>
+            </ul>
+        </div>
+
+        <div class="instructor-details">
+            <h2>Instructor: Ankita Kahandal</h2>
+            <img src="https://via.placeholder.com/100" alt="Instructor Photo">
+            <p>John Doe is an experienced web developer with over 10 years of experience in building scalable web applications. He has worked with various web technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+            <p>John has taught over 500 students in the past and is passionate about helping students become proficient in web development.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2025 Advanced Web Development Course. All rights reserved.</p>
+    </footer>
+</body>
+</html>
